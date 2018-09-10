@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #777777;
+    background-color: rgb(46, 46, 46);
+    font-family: 'Hind Siliguri', sans-serif;
+    margin: 0;
+    line-height: 20px;
+}
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+a:link {
+    text-decoration: none;
+    color: #E5E58B;
+}
+a:visited {
+    color: #BFBF73;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    height: 20px;
+}
+
+.header {
+    background-color: rgb(46, 46, 46);
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+    height: 100px;
+    margin: -10px -10px 0 -10px;
+    top: 0;
+    position: relative;
+    left: 10px;
+}
+#nav {
+    float: right;
+    padding-top: 45px;
+    display: block;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    height: 50px;
+    font-size: 14px;
+
+}
+#nav li {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+li.one {
+    border-right: solid 2px gray;
+}
+
+li.two {
+    border-right: solid 2px gray;
+}
+
+.link1 li {
+    border-right: solid 2px gray;
+}
+.topbar {
+    width: 960px;
+    margin: 0 auto;
+    height: 100px;
+    position: relative;
+}
+
+#name {
+    float: left;
+    color: #B3DFFF;
+    padding: 18px;
+    display: block;
+}
+
+.main {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    color: white;
+    position: relative;
+    bottom: 60px;
+    padding: 20px;
+    overflow: auto;
+    top: 35px;
+    margin-bottom: 80px;
+}
+
+
+.main h1 {
+    color: rgb(255, 255, 154);
+    border-bottom: 3px solid #dddddd;
+    padding-bottom: 20px;
+}
+
+.main p {
+    padding-top: 20px;
+    padding-bottom: 12px;
+
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.main-body {
+    padding-top: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.banner img {
+    width: 900px;
+    height: auto;
+}
+
+.profile-pic img {
+    width: 200px;
+    height: auto;
+    position: relative;
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+
+.float-left {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    float: left;
+    background-size: 270px;
+    height: 200px;
+    width: 200px;
+ 
+   
+}
+
+.picture1 {
+    background-image: url("../images/one.jpg");
+
+    clear: left;
+}
+
+.picture2 {
+    background-image: url("../images/two.jpg");
+ 
+}
+
+.picture3 {
+    background-image: url("../images/three.jpg");
+
+}
+
+.picture4 {
+    background-image: url("../images/four.jpg");
+
+}
+
+.picture5 {
+    background-image: url("../images/five.jpg");
+ 
+}
+
+.picture6 {
+    background-image: url("../images/one.jpg");
+ 
+}
+
+.picture7 {
+    background-image: url("../images/two.jpg");
+ 
+}
+
+.picture8 {
+    background-image: url("../images/three.jpg");
+    
+}
+
+.picture9 {
+    background-image: url("../images/four.jpg");
+    
+}
+
+#hangman {
+    background-color: #E2DAFF;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+a:hover #hangman {
+    background-color: #7C48B2;
+    color: white;
+}
+
+#RPGgame {
+    background-color: #E2DAFF;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+a:hover #RPGgame {
+    background-color: #7C48B2;
+    color: white;
+}
+
+#triviagame {
+    background-color: #E2DAFF;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+a:hover #triviagame {
+    background-color: #7C48B2;
+    color: white;
+}
+
+#widget {
+    background-color: #E2DAFF;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+a:hover #widget {
+    background-color: #7C48B2;
+}
+
+#rockpaperscissors {
+    background-color: #E2DAFF;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+a:hover #rockpaperscissors {
+    background-color: #7C48B2;
+    color: white;
+}
+
+form {
+    line-height: 30px;
+    padding-top: 5px;
+}
+
+input[type=text] {
+    padding: 8px;
+    width: 915px;
+}
+
