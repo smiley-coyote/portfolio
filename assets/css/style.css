@@ -193,6 +193,16 @@ h2 {
     
 }
 
+.picture10 {
+    background-image: url("../images/five.jpg");
+    
+}
+
+.picture11 {
+    background-image: url("../images/one.jpg");
+    
+}
+
 #hangman {
     background-color: #E2DAFF;
     color: black;
