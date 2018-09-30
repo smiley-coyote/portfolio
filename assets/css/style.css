@@ -148,28 +148,37 @@ h2 {
 }
 
 .picture1 {
-    background-image: url("../images/one.jpg");
+    background-image: url("../images/hangman.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 
     clear: left;
 }
 
 .picture2 {
-    background-image: url("../images/two.jpg");
- 
+    background-image: url("../images/rpg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .picture3 {
-    background-image: url("../images/three.jpg");
+    background-image: url("../images/trivia.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 
 }
 
 .picture4 {
-    background-image: url("../images/four.jpg");
+    background-image: url("../images/gifsearch.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 
 }
 
 .picture5 {
-    background-image: url("../images/five.jpg");
+    background-image: url("../images/rockpaperscissors.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
  
 }
 
@@ -189,17 +198,21 @@ h2 {
 }
 
 .picture9 {
-    background-image: url("../images/four.jpg");
+    background-image: url("../images/goodburger.png");
     
 }
 
 .picture10 {
-    background-image: url("../images/five.jpg");
+    background-image: url("../images/webscraper.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
     
 }
 
 .picture11 {
-    background-image: url("../images/one.jpg");
+    background-image: url("../images/memorygame.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
     
 }
 
