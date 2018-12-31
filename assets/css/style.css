@@ -4,15 +4,26 @@
 
 body {
     color: #777777;
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(36, 35, 35);
     font-family: 'Hind Siliguri', sans-serif;
     margin: 0;
     line-height: 20px;
+    overflow: scroll;
 }
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: block;
     font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    font-size: 1.5em;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
     margin-left: 0;
@@ -32,16 +43,19 @@ a:hover {
     text-decoration: none;
     height: 20px;
 }
-
+.wrapper {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
 .header {
-    background-color: rgb(46, 46, 46);
-    border-bottom: 1px solid #cccccc;
     width: 100%;
     height: 100px;
-    margin: -10px -10px 0 -10px;
     top: 0;
     position: relative;
     left: 10px;
+    border-bottom: 1px solid #cccccc;
+    margin: -10px -10px 0 -10px;
 }
 #nav {
     float: right;
@@ -51,12 +65,17 @@ a:hover {
     letter-spacing: 2px;
     height: 50px;
     font-size: 14px;
+   
 
 }
 #nav li {
     display: inline;
     padding-left: 5px;
     padding-right: 10px;
+    
+}
+#nav li:hover {
+    text-decoration: underline;
 }
 
 li.one {
@@ -86,18 +105,53 @@ li.two {
 
 .main {
     width: 960px;
-    margin: 0 auto 0 auto;
+    height: auto;
+    margin: 60px auto 10px auto;
     color: white;
     position: relative;
     bottom: 60px;
     padding: 20px;
-    overflow: auto;
-    top: 35px;
-    margin-bottom: 80px;
+  
+}
+
+.intro {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 40px;
+    border: 1px solid white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+button {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+#view-my-work{
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 100px;
 }
 
 
 .main h1 {
+    color: rgb(255, 255, 154);
+    border-bottom: 3px solid #dddddd;
+    padding-bottom: 20px;
+}
+
+.main h2 {
     color: rgb(255, 255, 154);
     border-bottom: 3px solid #dddddd;
     padding-bottom: 20px;
@@ -109,8 +163,12 @@ li.two {
 
 }
 
-h2 {
-    font-size: 35px;
+
+
+#view-more{
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 150px;
 }
 
 .main-body {
@@ -119,24 +177,38 @@ h2 {
     line-height: 1.5;
 }
 
-.banner img {
-    width: 900px;
-    height: auto;
-}
-
-.main-section {
+.banner {
     width: 100%;
+    margin: 0 auto;
+   
 }
 
-.profile-pic img {
-    width: 200px;
-    height: auto;
+.about-me-body{
+    margin-top: 35px;
+}
+
+.banner img {
     position: relative;
-    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+#profile-pic {
+    margin-left: 30%;
+    position: relative;
+}
+
+#profile-pic img {
+    width: 300px;
+    height: auto;
     padding-right: 15px;
     padding-bottom: 10px;
     padding-top: 20px;
+    border-radius: 50%;
 }
+
+
 
 
 .project-card {
@@ -226,5 +298,186 @@ input[type=text] {
 .project-card:hover #hidden-title{
     visibility: visible;
 }
+
+.large-font{
+    font-size: 1.5em;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+
+.med-font {
+    font-size: 1em;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+
+
+#about-me{
+    width: 100%;
+    position: relative;
+}
+#skills{
+    position: relative;
+    top: 100px;
+}
+#portfolio{
+   margin-top: 250px;
+    position: relative;
+}
+#contact{
+    height: auto;
+    margin-top: 800px;
+    position: relative;
+}
+
+#contact img:hover{
+    opacity: .7;
+}
+
+#contact a{
+    margin: 10px;
+    color: white; 
+}
+
+.glyphicon {
+    font-size: 30px;
+}
+
+.glyphicon:hover{
+    opacity: .7;
+}
+
+.container{
+    margin-top: 50px;
+    width: 900px;
+    text-align: center;
+}
+
+.col-sm-3 {
+    border: 1px solid white;
+    padding: 12px;
+}
+
+
+@media screen and (max-width: 900px) {
+.main{
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+#about-me{
+    width: 90%;
+}
+
+#profile-pic{
+    width: 70%;
+    margin-left: 30%;
+}
+
+.topbar {
+    width: 85%;
+}
+
+
+.container{
+    margin-top: 50px;
+    width: 750px;
+    text-align: center;
+}
+#contact {
+    margin-top: 1000px;
+}
+}
+
+@media screen and (max-width: 775px) {
+    .main{
+        width: 75%;
+        margin-bottom: 10px;
+    }
+    
+    #about-me{
+        width: 75%;
+    }
+    
+    #profile-pic{
+        width: 50%;
+        margin-left: 20%;
+    }
+   
+    
+    .topbar {
+        width: 75%;
+    }
+    #contact {
+        margin-top: 1500px;
+        width: 75%;
+    }
+    #skills{
+        width: 75%;
+    }
+    .row{
+        width:50%;
+    }
+    }
+
+    @media screen and (max-width: 680px) {
+        h1{
+            font-size: 1.6em;
+        }
+        h2{
+            font-size: 1.5em;
+        }
+        .topbar{
+            width:100%;
+        }
+        #nav{
+            font-size: 12px;
+        }
+
+        }
+        @media screen and (max-width: 635px) {
+            .main{
+                margin: 100px 0;
+            }
+           #nav{
+               font-size: 10px;
+               float: right;
+           }
+           .topbar{
+               
+               margin: 0;
+           }
+    
+            }
+            @media screen and (max-width: 525px) {
+                #about-me{
+                    width: 60%;
+                }
+        
+                }
+            @media screen and (max-width: 435px) {
+              h1{
+                  font-size: 1.4em;
+
+              }
+              #about-me{
+                width: 50%;
+            }
+            #profile-pic {
+                margin-left: 0px;
+            }
+            #portfolio{
+                width: 50%;
+            }
+          
+            #contact{
+                margin-top: 2850px;
+            }
+
+          
+
+        
+                }
+
 
 
