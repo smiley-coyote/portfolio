@@ -115,6 +115,7 @@ li.two {
 }
 
 .intro {
+    color: white;
     margin-top: 200px;
     margin-bottom: 100px;
     text-align: center;
@@ -387,6 +388,11 @@ input[type=text] {
 #contact {
     margin-top: 1000px;
 }
+
+.intro{
+    width: 75%;
+    margin: 200px auto;
+}
 }
 
 @media screen and (max-width: 775px) {
@@ -418,6 +424,12 @@ input[type=text] {
     .row{
         width:50%;
     }
+
+    .intro{
+        width: 55%;
+        margin: 130px 70px 100px 70px;
+    
+    }
     }
 
     @media screen and (max-width: 680px) {
@@ -433,6 +445,11 @@ input[type=text] {
         #nav{
             font-size: 12px;
         }
+        .intro{
+            width: 50%;
+            margin: 130px 70px 100px 70px;
+        
+        }
 
         }
         @media screen and (max-width: 635px) {
@@ -447,11 +464,21 @@ input[type=text] {
                
                margin: 0;
            }
+           .intro{
+            width: 45%;
+            margin: 130px 70px 100px 70px;
+        
+        }
     
             }
             @media screen and (max-width: 525px) {
                 #about-me{
                     width: 60%;
+                }
+                .intro{
+                    width: 40%;
+                    margin: 130px 70px 100px 70px;
+                
                 }
         
                 }
@@ -474,7 +501,11 @@ input[type=text] {
                 margin-top: 2850px;
             }
 
-          
+            .intro{
+                width: 40%;
+                margin: 100px 10px 100px 10px;
+            
+            }
 
         
                 }
