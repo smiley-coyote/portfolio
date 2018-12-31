@@ -443,8 +443,15 @@ input[type=text] {
         h2{
             font-size: 1.5em;
         }
+        .header{
+            width: 100%;
+        }
         .topbar{
-            width:100%;
+            width: 75%;
+            margin: 0 auto;
+        }
+        #about-me{
+            width: 65%;
         }
         #nav{
             font-size: 12px;
@@ -454,6 +461,7 @@ input[type=text] {
             margin: 130px 70px 100px 70px;
         
         }
+        
 
        
 
@@ -477,7 +485,7 @@ input[type=text] {
         }
     
             }
-            @media screen and (max-width: 525px) {
+            @media screen and (max-width: 550px) {
                 h1{
                     font-size: 1.4em;
   
