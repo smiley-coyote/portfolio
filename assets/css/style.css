@@ -372,7 +372,7 @@ input[type=text] {
 
 #profile-pic{
     width: 70%;
-    margin-left: 30%;
+    margin-left: 25%;
 }
 
 .topbar {
@@ -392,6 +392,9 @@ input[type=text] {
 .intro{
     width: 75%;
     margin: 200px auto;
+}
+.header{
+    border-bottom: none;
 }
 }
 
@@ -430,6 +433,7 @@ input[type=text] {
         margin: 130px 70px 100px 70px;
     
     }
+    
     }
 
     @media screen and (max-width: 680px) {
@@ -450,6 +454,8 @@ input[type=text] {
             margin: 130px 70px 100px 70px;
         
         }
+
+       
 
         }
         @media screen and (max-width: 635px) {
@@ -472,6 +478,13 @@ input[type=text] {
     
             }
             @media screen and (max-width: 525px) {
+                h1{
+                    font-size: 1.4em;
+  
+                }
+                #profile-pic {
+                    margin-left: 15%;
+                }
                 #about-me{
                     width: 60%;
                 }
@@ -480,13 +493,21 @@ input[type=text] {
                     margin: 130px 70px 100px 70px;
                 
                 }
-        
+                #name{
+                    float: none;
+                }
+                #nav{
+                    float: none;
+                    padding: 0;
+                }
+                .topbar{
+                    margin: 0 auto;
+                    width: 250px;
+                    
+                }
                 }
             @media screen and (max-width: 435px) {
-              h1{
-                  font-size: 1.4em;
-
-              }
+             
               #about-me{
                 width: 50%;
             }
@@ -496,6 +517,9 @@ input[type=text] {
             #portfolio{
                 width: 50%;
             }
+       
+
+           
           
             #contact{
                 margin-top: 2850px;
