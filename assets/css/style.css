@@ -101,6 +101,22 @@ li.two {
     color: #B3DFFF;
     padding: 18px;
     display: block;
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-delay: .5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideIn{
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 
 .main {
@@ -184,6 +200,8 @@ button:hover{
    
 }
 
+
+
 .about-me-body{
     margin-top: 35px;
 }
@@ -207,6 +225,19 @@ button:hover{
     padding-bottom: 10px;
     padding-top: 20px;
     border-radius: 50%;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 
@@ -219,7 +250,14 @@ button:hover{
     height: 200px;
     width: 200px;
     margin: 15px;
+    
 }
+
+.project-card img {
+    transition-duration: .5s;
+}
+
+
 
 
 .project-card h3 {
@@ -254,10 +292,7 @@ input[type=text] {
     width: 915px;
 }
 
-.project-card:hover > img{
-    -webkit-filter: blur(4px); /* Chrome, Safari, Opera */
-    filter: blur(4px);
-}
+
 
 .project-card img {
     height: 200px;
@@ -285,7 +320,6 @@ input[type=text] {
      1px -1px 0 #000,
      -1px 1px 0 #000,
       1px 1px 0 #000;
-    
 }
 
 .project-card:hover .project-text{
@@ -357,7 +391,15 @@ input[type=text] {
 .col-sm-3 {
     border: 1px solid white;
     padding: 12px;
+    transition-duration: 1s;
 }
+
+.col-sm-3:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+}
+
 
 
 @media screen and (max-width: 900px) {
