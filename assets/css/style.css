@@ -760,6 +760,23 @@ input[type=text] {
                 }
                 }
             @media screen and (max-width: 435px) {
+                #front-page-content{
+                    width: 450px;
+                  
+                }
+                #content-here{
+                    font-size: 20px;
+                }
+                #content-here2{
+                    top: 5%;
+                    width: 500px;
+                }
+                #content-here2 h1{
+                    font-size: 21px;
+                }
+                #content-here2 p{
+                    font-size: 15px;
+                }
              
               #about-me{
                 width: 50%;
